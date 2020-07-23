@@ -94,6 +94,35 @@ img{
     color: #fff;
 
 }
+nav{
+    background-color: #0695c5;
+}
+nav ul{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li{
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: Audiowide;
+}
+nav ul li:hover{
+    background-color: #015d56;
+    transition: 0.9s;
+}
+@media only screen and (max-width:767px){
+    nav ul{
+        height: 230px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
 @media sceeen and (max-width:575px)
 {
     .intro-about-pic figure img{
@@ -101,5 +130,13 @@ img{
     }
     .intro-about-pic figure figcaption{
         display: none;
+    }
+}
+
+@media only screen and (max-width:767px){
+    nav div ul{
+        height: 450px;
+        flex-direction: column;
+        text-align: center;
     }
 }
