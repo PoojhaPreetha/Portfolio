@@ -88,6 +88,7 @@ img{
 }
 .bg-pi{
     background-color: #666;
+
 }
 .marquee{
     font-size: larger;
@@ -115,6 +116,66 @@ nav ul li a{
 nav ul li:hover{
     background-color: #015d56;
     transition: 0.9s;
+}
+/* footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #fff;
+
+} */
+footer {
+ bottom: 0;
+ color:#fff;
+ height: 2em;
+ left: 0;
+ position: fixed; /* OldProperty */
+ position: static;/* Updated Property */
+ font-size: small;
+ width:100%;
+}
+
+.main-content{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+
+}
+.box h2{
+    font-size: 1.125rem;
+    color: #0695c5;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+.left .content p{
+    text-align: justify;
+    color: #fff;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+    background: #f12020;
+
 }
 @media only screen and (max-width:767px){
     nav ul{
