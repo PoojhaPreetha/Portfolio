@@ -179,12 +179,12 @@ footer {
 }
 @media only screen and (max-width:767px){
     nav ul{
-        height: 230px;
+        height: 330px;
         flex-direction: column;
         text-align: center;
     }
 }
-@media sceeen and (max-width:575px)
+@media sceeen and (max-width:767px)
 {
     .intro-about-pic figure img{
         margin-bottom: 0;
@@ -200,4 +200,10 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+}
+
+@media only screen and (max-width:767px){
+   .main-content{
+       display: none;
+   }
 }
